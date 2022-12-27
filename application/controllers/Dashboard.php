@@ -1,17 +1,17 @@
 <?php
 
-class Dashboard extends CI_Controller {
+class Dashboard extends My_Controller
+{
 
-	function __construct(){
+	function __construct()
+	{
 		parent::__construct();
 		$this->load->helper('url');
-		
-		
 	}
 
 	public function index()
 	{
-		$this->load->view('layout/application.php');
-		$this->load->view('index.php');
+		$test = array('one', 'two', 'three');
+		$this->data['test_data'] = $test;
 	}
 }
