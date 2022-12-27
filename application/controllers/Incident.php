@@ -22,7 +22,7 @@ class Incident extends My_Controller
 
 	{
 
-		$data['testing'] = 'Test Latest Incidents';
+		$data['tests'] = 'Test Latest Incidents';
 
 		$this->load->view('incident/test_data', $data);
 	}
