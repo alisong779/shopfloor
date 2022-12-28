@@ -52,5 +52,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'dashboard';
 $route['incidents'] = 'incidents/index';
 $route['incident_test'] = 'incidents/test_data';
+$route['add_incident'] = 'incidents/add_incident';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

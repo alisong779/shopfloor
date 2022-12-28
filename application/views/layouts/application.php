@@ -44,10 +44,10 @@
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="<?php base_url(); ?>" class="nav-link">Home</a>
+          <a href="http://localhost/shopfloor" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="<?php base_url(); ?>incident/test_data" class="nav-link">Drawing Search</a>
+          <a href="<?php base_url(); ?>incident_test" class="nav-link">Drawing Search</a>
         </li>
       </ul>
 
@@ -81,7 +81,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="index3.html" class="brand-link">
+      <a href="http://localhost/shopfloor" class="brand-link">
         <img src="<?php base_url(); ?>public/dist/img/SFSLogo.jpg" alt="SFS Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">Shop Floor Systems</span>
       </a>
@@ -332,7 +332,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="<?php base_url(); ?>">Home</a></li>
+                <li class="breadcrumb-item"><a href="http://localhost/shopfloor">Home</a></li>
                 <li class="breadcrumb-item active">Shop Floor Dashboard v1</li>
               </ol>
             </div><!-- /.col -->
@@ -402,7 +402,7 @@
                 <div class="icon">
                   <i class="fas fa-file-medical"></i>
                 </div>
-                <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                <a href="<?php base_url(); ?>/shopfloor/add_incident" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
               </div>
             </div>
             <!-- ./col -->
@@ -428,7 +428,7 @@
     <!-- /.content-wrapper -->
 
     <footer class="main-footer">
-      <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+      <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">GoldenHeartDesigns</a>.</strong>
       All rights reserved.
       <div class="float-right d-none d-sm-inline-block">
         <b>Version</b> 3.2.0
