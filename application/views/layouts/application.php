@@ -411,9 +411,9 @@
           <!-- Main row -->
           <div class="row">
             <!-- Left col -->
-            <section class="col-lg-7 ">
+            <section class="col-12 ">
               <!-- Custom tabs (Charts with tabs)-->
-              <div class="card">
+              <div class="card position-relative text-center" style="width: 100%;">
                 <?= $yield ?>
               </div>
               <!-- /.card -->
