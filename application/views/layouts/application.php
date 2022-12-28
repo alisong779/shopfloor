@@ -44,7 +44,7 @@
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-          <a href="<?php base_url(); ?>/shopfloor" class="nav-link">Home</a>
+          <a href="<?php base_url(); ?>" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
           <a href="<?php base_url(); ?>incident/test_data" class="nav-link">Drawing Search</a>
@@ -332,7 +332,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="<?php base_url(); ?>/shopfloor">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php base_url(); ?>">Home</a></li>
                 <li class="breadcrumb-item active">Shop Floor Dashboard v1</li>
               </ol>
             </div><!-- /.col -->
@@ -464,7 +464,7 @@
   <script src="<?php base_url(); ?>public/plugins/jquery-knob/jquery.knob.min.js"></script>
   <!-- daterangepicker -->
   <script src="<?php base_url(); ?>public/plugins/moment/moment.min.js"></script>
-  <script src="<?php base_url(); ?>public/plugins/daterangepicker/daterangepicker.js"></script>
+  <script src="<<?php base_url(); ?>public/plugins/daterangepicker/daterangepicker.js"></script>
   <!-- Tempusdominus Bootstrap 4 -->
   <script src="<?php base_url(); ?>public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
   <!-- Summernote -->

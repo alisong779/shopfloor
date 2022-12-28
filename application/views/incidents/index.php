@@ -1,0 +1,1 @@
+<a href="incident_test" class="btn btn-info" role="button">Link Button</a>

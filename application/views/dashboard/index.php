@@ -1,2 +1,2 @@
-<a href="<?php echo base_url(); ?>incident">Incidents
+<a href="<?php echo base_url(); ?>incidents">Incidents
 </a>
